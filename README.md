@@ -33,7 +33,8 @@ The U16BookOrganizer is a XAML/C# program that takes a .csv file and outputs it 
     
 ## Suggested Improvements
 
-- Code cleaning - instances of elements that can be boiled down to 1 line
+- Code cleaning - instances of elements that can be boiled down to 1 line, errant line endings/indentation
+- Add a button to view the instructions on how to use the program (program is relatively simple, seems pointless to add such a feature)
 - Fix bugs
 - Make the XAML more visually appealing (it's a bit dull)
 - Replace MessageBox() with a more appealing and user friendly alternative (i.e one that isn't going to frusturate the user)
