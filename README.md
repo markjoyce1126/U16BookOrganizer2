@@ -4,7 +4,7 @@
 
 ### Bugs
 
-- Button to create Temp folder does nothing
+- Button to create Temp folder does nothing - Fixed in U16BookOrganizer2
   - Intended use is to create a temp folder to output the .json file, even if the user doesn't have such a folder on their device
 - The 'Output' and 'Go' buttons are effectively worthless; all work being done by the 'Input' button
 
@@ -30,6 +30,13 @@ The U16BookOrganizer is a XAML/C# program that takes a .csv file and outputs it 
     "PublishedIn": "London",
     "Publisher": "Penguin",
     "Date": "2017"
+    
+## Suggested Improvements
+
+- Code cleaning - instances of elements that can be boiled down to 1 line
+- Fix bugs
+- Make the XAML more visually appealing (it's a bit dull)
+- Replace MessageBox() with a more appealing and user friendly alternative (i.e one that isn't going to frusturate the user)
 
 
 
